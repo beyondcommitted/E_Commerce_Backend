@@ -9,7 +9,7 @@ router.get('/', async (req, res) => {
   // be sure to include its associated Product data
 try {
   const allTags = await Tag.findAll({include: [Product]});
-  res.json(allTags)
+  res.json(allTags);
  } catch (error) {
    console.log(error.message);
    res.status(400).end(error.message)
@@ -27,7 +27,7 @@ try {
 }
 });
 
-router.post('/', (req, res) => {
+router.post('/', async (req, res) => {
   // create a new tag
   try {
     const createTag = await Tag.create(req.body);
@@ -38,25 +38,25 @@ router.post('/', (req, res) => {
     res.status(400).json(error)
   }});
 
-router.put('/:id', (req, res) => {
+router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
   try {
     const updateATag = await Tag.update(body, { where: { id } })
     res.json(updateATag)
   }
   catch (error) {
-    console.log(error.message)
+    console.log(error.message);
     res.status(400).end(error.message)
   }});
 
-router.delete('/:id', (req, res) => {
+router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
   try {
-    const destroyATag = await Tag.destroy({ where: { id } })
+    const destroyATag = await Tag.destroy({ where: { id }})
     res.json(destroyATag)
   }
   catch (error) {
-    console.log(error.message)
+    console.log(error.message);
     res.status(400).end(error.message)
   }});
 
