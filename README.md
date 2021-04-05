@@ -34,10 +34,10 @@ THEN user is able to successfully create, update, and delete data in the databas
 ```
 ---
 ## Mock Up
-![Screenshots](Develop\Assets\Images\categoriesGetAll.png)
-![Screenshots](Develop\Assets\Images\categoriesGetById.png)
-![Screenshots](Develop\Assets\Images\categoriesAddNew.png)
-![Screenshots](Develop\Assets\Images\productsGetAll.png)
-![Screenshots](Develop\Assets\Images\tagsGetAll.png)
-![Screenshots](Develop\Assets\Images\tagsGetById.png)
-![Screenshots](Develop\Assets\Images\tagsAddNew.png)
+![Screenshots](https://github.com/beyondcommitted/E_Commerce_Backend/blob/main/Develop/Assets/Images/categoriesAddNew.png?raw=true)
+![Screenshots](https://github.com/beyondcommitted/E_Commerce_Backend/blob/main/Develop/Assets/Images/categoriesGetAll.png?raw=true)
+![Screenshots](https://github.com/beyondcommitted/E_Commerce_Backend/blob/main/Develop/Assets/Images/categoriesGetById.png?raw=true)
+![Screenshots](https://github.com/beyondcommitted/E_Commerce_Backend/blob/main/Develop/Assets/Images/productsGetAll.png?raw=true)
+![Screenshots](https://github.com/beyondcommitted/E_Commerce_Backend/blob/main/Develop/Assets/Images/tagsAddNew.png?raw=true)
+![Screenshots](https://github.com/beyondcommitted/E_Commerce_Backend/blob/main/Develop/Assets/Images/tagsGetAll.png?raw=true)
+![Screenshots](https://github.com/beyondcommitted/E_Commerce_Backend/blob/main/Develop/Assets/Images/tagsGetById.png?raw=true)
