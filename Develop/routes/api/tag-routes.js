@@ -19,7 +19,7 @@ router.get('/:id', async (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
 try {
-  const oneTag = await findByPk(req.params.id, {include: [Product]});
+  const oneTag = await Tag.findByPk(req.params.id, {include: [Product]});
   res.json(oneTag)
 } catch (error) {
   console.log(error.message);
@@ -38,7 +38,7 @@ router.post('/', async (req, res) => {
     res.status(400).json(error)
   }});
 
-router.put('/:id', async (req, res) => {
+router.put('/:id', async ({body, params: {id}}, res) => {
   // update a tag's name by its `id` value
   try {
     const updateATag = await Tag.update(body, { where: { id } })

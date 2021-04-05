@@ -23,7 +23,7 @@ router.get("/:id", async (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
   try {
-    const oneProduct = await findByPk(req.params.id, {include: [Category, Tag]});
+    const oneProduct = await Product.findByPk(req.params.id, {include: [Category, Tag]});
     res.json(oneProduct)
   } catch (error) {
     console.log(error.message);
@@ -94,13 +94,13 @@ router.put("/:id", (req, res) => {
 
       // run both actions
       return Promise.all([
-        ProductTag.destroy({ where: { id: productTagsToRemove } }),
+        ProductTag.destroy({ where: { product_id: productTagsToRemove } }),
         ProductTag.bulkCreate(newProductTags),
       ]);
     })
     .then((updatedProductTags) => res.json(updatedProductTags))
     .catch((err) => {
-      // console.log(err);
+      console.log(err);
       res.status(400).json(err);
     });
 });
