@@ -15,7 +15,9 @@ SO THAT my company can compete with other e-commerce companies
 ---
 ## Description
 ```
-E-Commerce Back-end that allows for access to stored data. This data can be requested for all, by specific id. Also can be added to, updated or deleted.
+E-Commerce Back-end that allows for access to stored data. 
+This data can be requested for all, by specific id. 
+Also can be added to, updated or deleted.
 ```
 ---
 ## Met Acceptance Criteria
