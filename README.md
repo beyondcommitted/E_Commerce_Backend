@@ -8,10 +8,10 @@ SO THAT my company can compete with other e-commerce companies
 ```
 ---
 ## Links
-### ![GitHib Repository](https://github.com/beyondcommitted/E_Commerce_Backend)
-### ![Walkthrough Video for Categories](https://youtu.be/Ya9FqX-T-aU)
-### ![Walkthrough Video for Products](https://youtu.be/Oj8iJloLCMg)
-### ![Walkthrough Video for Tags](https://youtu.be/Wk5brGghewY)
+### [GitHib Repository](https://github.com/beyondcommitted/E_Commerce_Backend)
+### [Walkthrough Video for Categories](https://youtu.be/Ya9FqX-T-aU)
+### [Walkthrough Video for Products](https://youtu.be/Oj8iJloLCMg)
+### [Walkthrough Video for Tags](https://youtu.be/Wk5brGghewY)
 ---
 ## Description
 ```
@@ -34,4 +34,10 @@ THEN user is able to successfully create, update, and delete data in the databas
 ```
 ---
 ## Mock Up
-![Screenshots]()
+![Screenshots](Develop\Assets\Images\categoriesGetAll.png)
+![Screenshots](Develop\Assets\Images\categoriesGetById.png)
+![Screenshots](Develop\Assets\Images\categoriesAddNew.png)
+![Screenshots](Develop\Assets\Images\productsGetAll.png)
+![Screenshots](Develop\Assets\Images\tagsGetAll.png)
+![Screenshots](Develop\Assets\Images\tagsGetById.png)
+![Screenshots](Develop\Assets\Images\tagsAddNew.png)
